@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "The default data for Minecraft",
+        "supported_formats":[80,85]
+    }
+}
