@@ -1,5 +1,5 @@
 scoreboard players add @s stats.player_mine 1
-scoreboard players add total stats.player_mine 1
+scoreboard players add 总计 stats.player_mine 1
 
 scoreboard players reset @s stats.diamond_axe_used
 scoreboard players reset @s stats.diamond_pickaxe_used
