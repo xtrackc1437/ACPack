@@ -1,1 +1,0 @@
-execute as @a run function ac:trigger/1tick
