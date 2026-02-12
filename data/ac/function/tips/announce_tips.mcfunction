@@ -4,7 +4,7 @@ execute if score #random tips_random matches 1 run tellraw @s {"text":"你知道
 execute if score #random tips_random matches 2 run tellraw @s {"text":"服务器可以使用skin指令设置皮肤,哪怕你是离线玩家",color:aqua}
 execute if score #random tips_random matches 3 run tellraw @s {"text":"你知道吗?服务器其实有两个服主",color:aqua}
 execute if score #random tips_random matches 4 run tellraw @s {"text":"服务器使用数据包对原版游戏进行了少量修改,具体请查看官网",color:aqua}
-execute if score #random tips_random matches 5 run tellraw @s [{"text":"服务器有专门的帮助文档,请点击这里查看:",color:aqua},{"text":"https://docsareocraft.zhangrx.top/zh/help",color:aqua,"hover_event":{"action":"show_text","value":"点我打开"},"click_event":{"action":"open_url","url":"https://docsareocraft.zhangrx.top/zh/help"}}]
+execute if score #random tips_random matches 5 run tellraw @s [{"text":"服务器有专门的帮助文档,请点击这里查看:",color:aqua},{"text":"https://docsareocraft.zhangrx.top/zh/help",color:aqua,"hover_event":{"action":"show_text","value":"点我打开官方文档库"},"click_event":{"action":"open_url","url":"https://docsareocraft.zhangrx.top/zh/help"}}]
 execute if score #random tips_random matches 6 run tellraw @s {"text":"你知道吗?我们服务器的周目数大概率是国内生电服最多的 qwq",color:aqua}
 execute if score #random tips_random matches 7 run tellraw @s {"text":"你可以使用/trigger trigger set 1,打开控制面板关闭此提示",color:aqua}
 execute if score #random tips_random matches 8 run tellraw @s {"text":"每次重启数据包都会自动打开小贴士,这是设定!!!",color:aqua}
@@ -18,5 +18,5 @@ execute if score #random tips_random matches 15 run tellraw @s [{"text":"服务�
 execute if score #random tips_random matches 16 run tellraw @s {"text":"考核期一般为15天左右,考核期通过后才会成为正式玩家...","color":aqua}
 execute if score #random tips_random matches 17 run tellraw @s {"text":"迅捷潜行可以通过猪灵交易获得,别跑图了...","color":aqua}
 execute if score #random tips_random matches 18 run tellraw @s {"text":"猪灵交易可以让你获得一些稀有物品...","color":aqua}
-execute if score #random tips_random matches 19 run tellraw @s {"text":"尼达斯豆菜布盗着哩斜得势肾癦","color":aqua,"obfuscated":true}
+execute if score #random tips_random matches 19 run tellraw @s {"text":"这条消息永远不会显示在小贴士上！","color":aqua,"obfuscated":true}
 execute if score #random tips_random matches 20 run tellraw @s {"text":"服务器虽然周目数很多，但不少周目都在存档毕业前就废弃了或者损坏了",color:aqua}
