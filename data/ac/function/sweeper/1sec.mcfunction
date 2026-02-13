@@ -1,0 +1,1 @@
+execute if score #sweeper sweeper_countdown matches 1.. run scoreboard players remove #sweeper sweeper_countdown 1
