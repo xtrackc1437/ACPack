@@ -18,5 +18,5 @@ execute if score #random tips_random matches 15 run tellraw @s [{"text":"服务�
 execute if score #random tips_random matches 16 run tellraw @s {"text":"考核期一般为15天左右,考核期通过后才会成为正式玩家...","color":aqua}
 execute if score #random tips_random matches 17 run tellraw @s {"text":"迅捷潜行可以通过猪灵交易获得,别跑图了...","color":aqua}
 execute if score #random tips_random matches 18 run tellraw @s {"text":"猪灵交易可以让你获得一些稀有物品...","color":aqua}
-execute if score #random tips_random matches 19 run tellraw @s {"text":"尼达斯豆菜布盗着哩斜得势肾癦","color":aqua,"obfuscated":true}
+execute if score #random tips_random matches 19 run tellraw @s {"text":"这条消息永远不会显示在小贴士上！","color":aqua,"obfuscated":true}
 execute if score #random tips_random matches 20 run tellraw @s {"text":"服务器虽然周目数很多，但不少周目都在存档毕业前就废弃了或者损坏了",color:aqua}

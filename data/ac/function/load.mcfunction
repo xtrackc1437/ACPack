@@ -1,5 +1,5 @@
 #### 加载告知 ####
-tellraw @a [{text:"ACPack 数据包已加载",color:"green"},{text:" "},{text:"这是ACPack v1.0.7 更新时间:2026/2/13"}]
+tellraw @a [{text:"ACPack 数据包已加载",color:"green"},{text:" "},{text:"ACPack v1.0.7 更新时间:2026/2/13"}]
 tellraw @a {text:" "}
 #### 计分板 ####
 # sweeper
