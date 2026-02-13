@@ -1,5 +1,6 @@
 {
     "values": [
-        "ac:load"
+        "ac:load",
+        "statistics:load"
     ]
 }

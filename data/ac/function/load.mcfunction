@@ -1,6 +1,6 @@
 #### 加载告知 ####
-tellraw @a [{text:"ACPack 数据包已加载",color:"green"},{text:" "},{text:"这是ACPack v1.0.5 更新时间为26.2.12"}]
-
+tellraw @a [{text:"ACPack 数据包已加载",color:"green"},{text:" "},{text:"版本:v1.0.6 更新时间:2026/2/12"}]
+tellraw @a {text:" "}
 #### 计分板 ####
 #first join
 scoreboard objectives add first_join dummy

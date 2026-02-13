@@ -1,1 +1,0 @@
-execute as @a run function ac:first_join/1tick
