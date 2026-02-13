@@ -18,6 +18,14 @@ scoreboard objectives add stats.netherite_hoe minecraft.used:netherite_hoe "下�
 scoreboard objectives add stats.diamond_hoe minecraft.used:diamond_hoe "钻石锄使用"
 scoreboard objectives add stats.player_hoe dummy {"text":"锄头使用量","color":"green","bold":true}
 
+scoreboard objectives add stats.open_barrel minecraft.custom:open_barrel "木桶打开次数"
+scoreboard objectives add stats.open_shulker_box minecraft.custom:open_shulker_box "潜影盒打开次数"
+scoreboard objectives add stats.open_enderchest minecraft.custom:open_enderchest "末影箱打开次数"
+scoreboard objectives add stats.open_chest minecraft.custom:open_chest "箱子打开次数"
+scoreboard objectives add stats.player_container_use dummy {"text":"容器打开次数","color":"#FFCC00","bold":true}
+
+scoreboard objectives add stats.traded_with_villager minecraft.custom:traded_with_villager "村民交易次数"
+scoreboard objectives add stats.player_traded_with_villager dummy {"text":"村民交易次数","color":"#33ffad","bold":true}
 # 计时器
 schedule function statistics:1tick 1t replace
-schedule function statistics:30sec 1t replace
+schedule function statistics:10sec 1t replace
