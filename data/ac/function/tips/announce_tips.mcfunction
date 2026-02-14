@@ -7,7 +7,7 @@ execute if score #random tips_random matches 4 run tellraw @s {"text":"服务器
 execute if score #random tips_random matches 5 run tellraw @s [{"text":"服务器有专门的帮助文档,请点击这里查看:",color:aqua},{"text":"https://docsareocraft.zhangrx.top/zh/help",color:aqua,"hover_event":{"action":"show_text","value":"点我打开官方文档库"},"click_event":{"action":"open_url","url":"https://docsareocraft.zhangrx.top/zh/help"}}]
 execute if score #random tips_random matches 6 run tellraw @s {"text":"你知道吗?我们服务器的周目数大概率是国内生电服最多的 qwq",color:aqua}
 execute if score #random tips_random matches 7 run tellraw @s {"text":"你可以使用/trigger trigger set 1,打开控制面板关闭小贴士！",color:aqua}
-execute if score #random tips_random matches 8 run tellraw @s {"text":"每次重启数据包都会自动打开小贴士,这是设定！！！",color:aqua}
+execute if score #random tips_random matches 8 run tellraw @s {"text":"第一次使用数据包将会自动打开小贴士,这是设定！！！",color:aqua}
 execute if score #random tips_random matches 9 run tellraw @s {"text":"小贴士每5分钟会显示一次！",color:aqua}
 execute if score #random tips_random matches 10 run tellraw @s [{"text":"如果想要为该数据包提出意见(包括小贴士投稿,数据包内容增加),可以前往:",color:aqua},{"text":"https://github.com/misividkoukou/ACPack/issues",color:green,"click_event":{action:"open_url","url":"https://github.com/misividkoukou/ACPack/issues"}},{"text":"提交issue",color:aqua}]
 execute if score #random tips_random matches 11 run tellraw @s {"text":"PCL的联机功能本质上与RADMIN一致。你下载RADMIN了吗？大家都用它联机!","color":aqua}
