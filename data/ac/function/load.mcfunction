@@ -5,8 +5,8 @@ tellraw @a {text:" "}
 # sweeper
 scoreboard objectives add sweeper_countdown dummy
 scoreboard players set #sweeper sweeper_countdown -1
-#first join
-scoreboard objectives add first_join dummy
+#first join(gametime判定)
+scoreboard objectives add stats.gametime minecraft.custom:play_time
 # random的菜
 scoreboard objectives remove tips_random
 scoreboard objectives add tips_random dummy
