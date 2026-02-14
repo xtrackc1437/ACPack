@@ -4,6 +4,7 @@ tellraw @a {text:" "}
 #### 计分板 ####
 # sweeper
 scoreboard objectives add sweeper_countdown dummy
+scoreboard players set #sweeper sweeper_countdown -1
 #first join
 scoreboard objectives add first_join dummy
 # random的菜
