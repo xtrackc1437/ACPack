@@ -21,7 +21,9 @@ Made by AreoCraft Developers!
 
 ## 适配与维护情况
 当前适配：最低`1.21.9`，目标`1.21.11`.
+
 维护者：AreoCraft技术开发组
+
 积极维护中！
 
 ## 贡献
