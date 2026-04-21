@@ -2,7 +2,7 @@
 ![version](https://img.shields.io/badge/v1.0.7.2-success)
 ![mcver](https://img.shields.io/badge/minecraft-26.1.2-blue)
 
-![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge) 
+[![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge)](https://www.mozilla.org/en-US/MPL/2.0/)
 ![Language](https://img.shields.io/badge/Language-mcfunction-red?style=for-the-badge)
 
 A datapack for minecraft that tweaks some features in order to make the game better!
