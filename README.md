@@ -1,6 +1,6 @@
 # ACPack
 ![version](https://img.shields.io/badge/v1.0.7.2-success)
-![mcver](https://img.shields.io/badge/minecraft-1.21.11-blue)
+![mcver](https://img.shields.io/badge/minecraft-26.1.2-blue)
 
 ![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge) 
 ![Language](https://img.shields.io/badge/Language-mcfunction-red?style=for-the-badge)
@@ -21,6 +21,7 @@ Made by AreoCraft Developers!
 
 ## 适配与维护情况
 当前适配：最低`1.21.9`，目标`1.21.11`.
+实验性支持(未进行专门适配，但经过测试未发现兼容性问题)：`26.1.2`.
 
 维护者：AreoCraft技术开发组
 
